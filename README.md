@@ -37,20 +37,20 @@
 
 	刪除~/.config 文件夾下的關於搜狗的三個文件夾
 ---
-#### <span id="3">清除不用的包:</span>
+#### <span id="4">清除不用的包:</span>
 
 	sudo apt-get autoclean
 ---
-#### <span id="3">自动修复依赖:</span>
+#### <span id="5">自动修复依赖:</span>
 
 	sudo apt-get install -f
 ---
-#### <span id="3">编辑环境变量:</span>
+#### <span id="6">编辑环境变量:</span>
 
 	sudo gedit /etc/environment
 	source /etc/environment
 ---
-#### <span id="3">安装nodejs:</span>
+#### <span id="7">安装nodejs:</span>
 1.下载并解压 node-v-x-linux-x64.tar.xz
 
 	tar -xJf node-v-x-linux-x64.tar.xz
@@ -66,7 +66,7 @@
 	node -v
 	npm -v
 ---
-#### <span id="3">修复npm全局安装失败:</span>
+#### <span id="8">修复npm全局安装失败:</span>
 1.运行
 
 	npm root -g
@@ -76,7 +76,7 @@
 期望 “/usr/local/lib/node_modules”
 
 ---
-#### <span id="3">修复双系统下导致Windows时间错误:</span>
+#### <span id="9">修复双系统下导致Windows时间错误:</span>
 1.首先在Ubuntu下更新一下时间，保证当前时间是正确的，然后运行一下命令
 
 	sudo apt-get install ntpdate
@@ -85,7 +85,7 @@
 
 	sudo hwclock --localtime --systohc
 ---
-#### <span id="3">WPS“系统缺失字体”问题:</span>
+#### <span id="10">WPS“系统缺失字体”问题:</span>
 1.下载缺失的字体文件，然后复制到Linux系统中的/usr/share/fonts文件夹中
 
 国外下载地址：<https://www.dropbox.com/s/lfy4hvq95ilwyw5/wps_symbol_fonts.zip>
@@ -107,21 +107,21 @@
 重启wps即可，字体缺失的提示不再出现。
 
 ---
-#### <span id="3">安装shadowsocks-qt5:</span>
+#### <span id="11">安装shadowsocks-qt5:</span>
 分别运行以下三行命令：
 
 	sudo add-apt-repository ppa:hzwhuang/ss-qt5
 	sudo apt-get update
 	sudo apt-get install shadowsocks-qt5
 ---
-#### <span id="3">修复sublime无法输入中文:</span>
+#### <span id="12">修复sublime无法输入中文:</span>
 <https://jingyan.baidu.com/article/e9fb46e17ba76f7521f766d5.html>
 <https://jingyan.baidu.com/article/f3ad7d0ff8731609c3345b3b.html>
 
 ---
-#### <span id="3">修改系统字体:</span>
+#### <span id="13">修改系统字体:</span>
 <https://my.oschina.net/itblog/blog/278566>
 
 ---
-#### <span id="3">配置Android环境:</span>
+#### <span id="14">配置Android环境:</span>
 <http://blog.csdn.net/u013068377/article/details/47449955>
