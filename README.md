@@ -88,8 +88,8 @@
 #### <a id="10">WPS“系统缺失字体”问题:</a>
 1.下载缺失的字体文件，然后复制到Linux系统中的/usr/share/fonts文件夹中
 
-国外下载地址：<https://www.dropbox.com/s/lfy4hvq95ilwyw5/wps_symbol_fonts.zip>
-国内下载地址：<https://pan.baidu.com/s/1eS6xIzo>
+国外下载地址：<https://www.dropbox.com/s/lfy4hvq95ilwyw5/wps_symbol_fonts.zip><br>
+国内下载地址：<https://pan.baidu.com/s/1eS6xIzo><br>
 （上述数据来源网络，侵删）
 
 2.下载完成后，解压得到字体文件
