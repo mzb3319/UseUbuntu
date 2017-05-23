@@ -11,7 +11,7 @@
 11. [Ubuntu 安装shadowsocks-qt5](#11)
 12. [Ubuntu 修复sublime无法输入中文](#12)
 13. [Ubuntu 修改系统字体](#13)
-14. [Ubuntu 配置Android环境](#14)
+14. [Ubuntu 配置Android环境](#配置Android环境)
 
 ---
 #### <span id="1">以root权限打开文件管理器:</span>
