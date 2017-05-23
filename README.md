@@ -14,13 +14,13 @@
 14. [Ubuntu 配置Android环境](#14)
 
 ---
-#### <span id="1">以root权限打开文件管理器:</span>
+#### <a id="1">以root权限打开文件管理器:</a>
 
 	sudo nautilus
 ---
-#### <span id="2">创建应用启动器:</span>
+#### <a id="2">创建应用启动器:</a>
 
-	cd /usr/share/applications
+	>cd /usr/share/applications
 	sudo gedit xxx.desktop
  在xxx.desktop中输入
  
@@ -33,24 +33,24 @@
 	Type=Application
 	Categories=Development
 ---
-#### <span id="3">修复搜狗拼音:</span>
+#### <a id="3">修复搜狗拼音:</a>
 
 	刪除~/.config 文件夾下的關於搜狗的三個文件夾
 ---
-#### <span id="4">清除不用的包:</span>
+#### <a id="4">清除不用的包:</a>
 
 	sudo apt-get autoclean
 ---
-#### <span id="5">自动修复依赖:</span>
+#### <a id="5">自动修复依赖:</a>
 
 	sudo apt-get install -f
 ---
-#### <span id="6">编辑环境变量:</span>
+#### <a id="6">编辑环境变量:</a>
 
 	sudo gedit /etc/environment
 	source /etc/environment
 ---
-#### <span id="7">安装nodejs:</span>
+#### <a id="7">安装nodejs:</a>
 1.下载并解压 node-v-x-linux-x64.tar.xz
 
 	tar -xJf node-v-x-linux-x64.tar.xz
@@ -66,7 +66,7 @@
 	node -v
 	npm -v
 ---
-#### <span id="8">修复npm全局安装失败:</span>
+#### <a id="8">修复npm全局安装失败:</a>
 1.运行
 
 	npm root -g
@@ -76,7 +76,7 @@
 期望 “/usr/local/lib/node_modules”
 
 ---
-#### <span id="9">修复双系统下导致Windows时间错误:</span>
+#### <a id="9">修复双系统下导致Windows时间错误:</a>
 1.首先在Ubuntu下更新一下时间，保证当前时间是正确的，然后运行一下命令
 
 	sudo apt-get install ntpdate
@@ -85,7 +85,7 @@
 
 	sudo hwclock --localtime --systohc
 ---
-#### <span id="10">WPS“系统缺失字体”问题:</span>
+#### <a id="10">WPS“系统缺失字体”问题:</a>
 1.下载缺失的字体文件，然后复制到Linux系统中的/usr/share/fonts文件夹中
 
 国外下载地址：<https://www.dropbox.com/s/lfy4hvq95ilwyw5/wps_symbol_fonts.zip>
@@ -107,19 +107,19 @@
 重启wps即可，字体缺失的提示不再出现。
 
 ---
-#### <span id="11">安装shadowsocks-qt5:</span>
+#### <a id="11">安装shadowsocks-qt5:</a>
 分别运行以下三行命令：
 
 	sudo add-apt-repository ppa:hzwhuang/ss-qt5
 	sudo apt-get update
 	sudo apt-get install shadowsocks-qt5
 ---
-#### <span id="12">修复sublime无法输入中文:</span>
+#### <a id="12">修复sublime无法输入中文:</a>
 <https://jingyan.baidu.com/article/e9fb46e17ba76f7521f766d5.html>
 <https://jingyan.baidu.com/article/f3ad7d0ff8731609c3345b3b.html>
 
 ---
-#### <span id="13">修改系统字体:</span>
+#### <a id="13">修改系统字体:</a>
 <https://my.oschina.net/itblog/blog/278566>
 
 ---
