@@ -20,7 +20,7 @@
 ---
 #### <a id="2">创建应用启动器:</a>
 
-	>cd /usr/share/applications
+	cd /usr/share/applications
 	sudo gedit xxx.desktop
  在xxx.desktop中输入
  
