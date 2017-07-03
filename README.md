@@ -125,3 +125,5 @@
 ---
 #### <a name="14">配置Android环境:</a>
 <http://blog.csdn.net/u013068377/article/details/47449955>
+
+这个地方还要添加环境变量，方法就是上边的提到的方法。要添加的路径就是SDK安装目录下的platform-tools和tools
