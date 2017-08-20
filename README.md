@@ -12,6 +12,7 @@
 12. [Ubuntu 修复sublime无法输入中文](#12)
 13. [Ubuntu 修改系统字体](#13)
 14. [Ubuntu 配置Android环境](#14)
+14. [CLion 多线程编译配置](#15)
 
 ---
 #### <a id="1">以root权限打开文件管理器:</a>
@@ -127,3 +128,9 @@
 <http://blog.csdn.net/u013068377/article/details/47449955>
 
 这个地方还要添加环境变量，方法就是上边的提到的方法。要添加的路径就是SDK安装目录下的platform-tools和tools
+
+---
+#### <a name="15">CLion 多线程编译配置:</a>
+修改CMakeLists.txt文件:
+
+set(CMAKE_CXX_STANDARD 11) =>set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
